@@ -216,6 +216,11 @@
 | CVE-2026-26128 | Windows SMB Server Improper Authentication LPE | https://github.com/jarnovandenbrink/CVE-2026-26128 |
 | CVE-2026-31431 | Copy Fail LPE (1) | https://github.com/theori-io/copy-fail-CVE-2026-31431 |
 | CVE-2026-31431 | Copy Fail LPE (2) | https://github.com/painoob/Copy-Fail-Exploit-CVE-2026-31431 |
+
+### Miscellaneous Exploits
+
+| CVE | Descritpion | URL |
+| --- | --- | --- |
 | n/a | BadSuccessor LPE | https://github.com/ibaiC/BadSuccessor |
 | n/a | BlueHammer LPE (1) | https://github.com/Nightmare-Eclipse/BlueHammer |
 | n/a | BlueHammer LPE (2) | https://github.com/0xjustBen/BlueHammer |
@@ -224,39 +229,44 @@
 | n/a | dompdf XSS to RCE (0-day) | https://positive.security/blog/dompdf-rce |
 | n/a | GSM Linux Kernel LPE (1) | https://github.com/jmpe4x/GSM_Linux_Kernel_LPE_Nday_Exploit |
 | n/a | GSM Linux Kernel LPE (2) | https://github.com/YuriiCrimson/ExploitGSM |
-| n/a | StorSvc LPE | https://github.com/blackarrowsec/redteam-research/tree/master/LPE%20via%20StorSvc |
-| n/a | ADCSCoercePotato | https://github.com/decoder-it/ADCSCoercePotato |
-| n/a | CoercedPotato LPE | https://github.com/Prepouce/CoercedPotato |
-| n/a | DCOMPotato LPE | https://github.com/zcgonvh/DCOMPotato |
-| n/a | DeadPotato LPE | https://github.com/lypd0/DeadPotato |
-| n/a | GenericPotato LPE | https://github.com/micahvandeusen/GenericPotato |
-| n/a | GodPotato LPE | https://github.com/BeichenDream/GodPotato |
 | n/a | GreenPlasma Windows CTFMON Arbitrary Section Creation LPE | https://github.com/Nightmare-Eclipse/GreenPlasma |
-| n/a | JuicyPotato LPE | https://github.com/ohpe/juicy-potato |
-| n/a | Juice-PotatoNG LPE | https://github.com/antonioCoco/JuicyPotatoNG |
 | n/a | Microsoft ms-photos URI NTLM Leak (0-day) | https://github.com/rubenformation/ms-photos_NTLM_Leak |
 | n/a | MiniPlasma CVE-2020-17103 partially patched cldflt.sys LPE | https://github.com/Nightmare-Eclipse/MiniPlasma |
-| n/a | MultiPotato LPE | https://github.com/S3cur3Th1sSh1t/MultiPotato |
 | n/a | NoFilter LPE | https://github.com/deepinstinct/NoFilter |
 | n/a | OfflineSAM LPE | https://github.com/gtworek/PSBits/tree/master/OfflineSAM |
 | n/a | OfflineAddAdmin2 LPE | https://github.com/gtworek/PSBits/tree/master/OfflineSAM/OfflineAddAdmin2 |
 | n/a | PrintSpoofer LPE (1) | https://github.com/dievus/printspoofer |
 | n/a | PrintSpoofer LPE (2) | https://github.com/itm4n/PrintSpoofer |
 | n/a | RedSun LPE | https://github.com/Nightmare-Eclipse/RedSun |
+| n/a | SharpSuccessor LPE | https://github.com/logangoins/SharpSuccessor |
+| n/a | Shocker Container Escape | https://github.com/gabrtv/shocker |
+| n/a | ssh-keysign-pwn | https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn |
+| n/a | StorSvc LPE | https://github.com/blackarrowsec/redteam-research/tree/master/LPE%20via%20StorSvc |
+| n/a | SystemNightmare LPE | https://github.com/GossiTheDog/SystemNightmare |
+| n/a | YellowKey Bitlocker Bypass | https://github.com/Nightmare-Eclipse/YellowKey |
+
+### Vegetable Exploits
+
+| CVE | Descritpion | URL |
+| --- | --- | --- |
+| n/a | ADCSCoercePotato LPE | https://github.com/decoder-it/ADCSCoercePotato |
+| n/a | CoercedPotato LPE | https://github.com/Prepouce/CoercedPotato |
+| n/a | DCOMPotato LPE | https://github.com/zcgonvh/DCOMPotato |
+| n/a | DeadPotato LPE | https://github.com/lypd0/DeadPotato |
+| n/a | GenericPotato LPE | https://github.com/micahvandeusen/GenericPotato |
+| n/a | GodPotato LPE | https://github.com/BeichenDream/GodPotato |
+| n/a | JuicyPotato LPE | https://github.com/ohpe/juicy-potato |
+| n/a | Juice-PotatoNG LPE | https://github.com/antonioCoco/JuicyPotatoNG |
+| n/a | MultiPotato LPE | https://github.com/S3cur3Th1sSh1t/MultiPotato |
 | n/a | RemotePotato0 LPE | https://github.com/antonioCoco/RemotePotato0 |
 | n/a | RoguePotato LPE | https://github.com/antonioCoco/RoguePotato |
 | n/a | RottenPotatoNG LPE | https://github.com/breenmachine/RottenPotatoNG |
 | n/a | RustPotato LPE | https://github.com/safedv/RustPotato |
 | n/a | S4UTomato LPE | https://github.com/wh0amitz/S4UTomato |
 | n/a | SharpEfsPotato LPE | https://github.com/bugch3ck/SharpEfsPotato |
-| n/a | SharpSuccessor LPE | https://github.com/logangoins/SharpSuccessor |
-| n/a | Shocker Container Escape | https://github.com/gabrtv/shocker |
 | n/a | SigmaPotato LPE | https://github.com/tylerdotrar/SigmaPotato |
-| n/a | ssh-keysign-pwn | https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn |
 | n/a | SweetPotato LPE | https://github.com/CCob/SweetPotato |
 | n/a | SweetPotato LPE | https://github.com/uknowsec/SweetPotato |
-| n/a | SystemNightmare LPE | https://github.com/GossiTheDog/SystemNightmare |
-| n/a | YellowKey Bitlocker Bypass | https://github.com/Nightmare-Eclipse/YellowKey |
 
 ### Exploit Collections
 
