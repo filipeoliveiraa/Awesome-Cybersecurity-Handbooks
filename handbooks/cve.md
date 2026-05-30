@@ -226,28 +226,28 @@
 | CVE | Descritpion | URL |
 | --- | --- | --- |
 | n/a | BadSuccessor LPE | https://github.com/ibaiC/BadSuccessor |
-| n/a | BlueHammer LPE (1) | https://gitlab.com/nightmare-eclipse/BlueHammer |
+| n/a | BlueHammer LPE (1) | https://github.com/0xsyr0/BlueHammer |
 | n/a | BlueHammer LPE (2) | https://github.com/0xjustBen/BlueHammer |
 | n/a | Dirty Frag Universal Linux LPE | https://github.com/V4bel/dirtyfrag |
 | n/a | dompdf RCE (0-day) | https://github.com/positive-security/dompdf-rce |
 | n/a | dompdf XSS to RCE (0-day) | https://positive.security/blog/dompdf-rce |
 | n/a | GSM Linux Kernel LPE (1) | https://github.com/jmpe4x/GSM_Linux_Kernel_LPE_Nday_Exploit |
 | n/a | GSM Linux Kernel LPE (2) | https://github.com/YuriiCrimson/ExploitGSM |
-| n/a | GreenPlasma Windows CTFMON Arbitrary Section Creation LPE | https://gitlab.com/nightmare-eclipse/green-plasma |
+| n/a | GreenPlasma Windows CTFMON Arbitrary Section Creation LPE | https://github.com/0xsyr0/GreenPlasma |
 | n/a | Microsoft ms-photos URI NTLM Leak (0-day) | https://github.com/rubenformation/ms-photos_NTLM_Leak |
-| n/a | MiniPlasma CVE-2020-17103 partially patched cldflt.sys LPE | https://gitlab.com/nightmare-eclipse/MiniPlasma |
+| n/a | MiniPlasma CVE-2020-17103 partially patched cldflt.sys LPE | https://github.com/0xsyr0/MiniPlasma |
 | n/a | NoFilter LPE | https://github.com/deepinstinct/NoFilter |
 | n/a | OfflineSAM LPE | https://github.com/gtworek/PSBits/tree/master/OfflineSAM |
 | n/a | OfflineAddAdmin2 LPE | https://github.com/gtworek/PSBits/tree/master/OfflineSAM/OfflineAddAdmin2 |
 | n/a | PrintSpoofer LPE (1) | https://github.com/dievus/printspoofer |
 | n/a | PrintSpoofer LPE (2) | https://github.com/itm4n/PrintSpoofer |
-| n/a | RedSun LPE | https://gitlab.com/nightmare-eclipse/RedSun |
+| n/a | RedSun LPE | https://github.com/0xsyr0/RedSun |
 | n/a | SharpSuccessor LPE | https://github.com/logangoins/SharpSuccessor |
 | n/a | Shocker Container Escape | https://github.com/gabrtv/shocker |
 | n/a | ssh-keysign-pwn | https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn |
 | n/a | StorSvc LPE | https://github.com/blackarrowsec/redteam-research/tree/master/LPE%20via%20StorSvc |
 | n/a | SystemNightmare LPE | https://github.com/GossiTheDog/SystemNightmare |
-| n/a | YellowKey Bitlocker Bypass | https://gitlab.com/nightmare-eclipse/YellowKey |
+| n/a | YellowKey Bitlocker Bypass | https://github.com/0xsyr0/YellowKey |
 
 ### Vegetable Exploits
 
