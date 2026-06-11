@@ -79,6 +79,7 @@
 - [Wfuzz](#wfuzz)
 - [WhatWeb](#whatweb)
 - [Wordpress](#wordpress)
+- [WPProbe](#wpprobe)
 - [WPScan](#wpscan)
 - [wrapwrap](#wrapwrap)
 - [XML External Entity (XXE)](#xml-external-entity-xxe)
@@ -158,6 +159,7 @@
 | Weird Proxies | It's a cheat sheet about behaviour of various reverse proxies and related attacks. | https://github.com/GrrrDog/weird_proxies |
 | Wfuzz | Wfuzz - The Web Fuzzer | https://github.com/xmendez/wfuzz |
 | WhatWeb | Next generation web scanner | https://github.com/urbanadventurer/WhatWeb |
+| WPProbe | A fast WordPress plugin enumeration tool | https://github.com/Chocapikk/wpprobe |
 | WPScan | WordPress Security Scanner | https://github.com/wpscanteam/wpscan |
 | x8 | Hidden parameters discovery suite written in Rust. | https://github.com/Sh1Yo/x8 |
 | XSRFProbe | The Prime Cross Site Request Forgery Audit & Exploitation Toolkit. | https://github.com/0xInfection/XSRFProbe |
@@ -6125,6 +6127,27 @@ $ whatweb -v -a 3 <RHOST>
 
 ```console
 /var/www/wordpress/wp-config.php
+```
+
+## WPProbe
+
+### Installation
+
+```console
+$ go install github.com/Chocapikk/wpprobe@latest
+$ wpprobe update-db
+$ wpprobe update-db --api-key <KEY>
+```
+
+### Common Commands
+
+```console
+$ wpprobe scan -u https://<RHOST>/
+$ wpprobe scan -f <FILE>.txt -t 20
+$ wpprobe scan -u https://<RHOST>/ --mode stealthy
+$ wpprobe scan -u https://<RHOST>/ --mode bruteforce
+$ wpprobe scan -u https://<RHOST>/ --mode hybrid
+$ wpprobe scan -u https://<RHOST>/ --header "User-Agent: <AGENT>" --proxy http://proxy:8080 --rate-limit 10 --no-check-version
 ```
 
 ## WPScan
