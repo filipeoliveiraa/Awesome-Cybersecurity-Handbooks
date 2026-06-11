@@ -234,6 +234,7 @@
 | n/a | dompdf XSS to RCE (0-day) | https://positive.security/blog/dompdf-rce |
 | n/a | GSM Linux Kernel LPE (1) | https://github.com/jmpe4x/GSM_Linux_Kernel_LPE_Nday_Exploit |
 | n/a | GSM Linux Kernel LPE (2) | https://github.com/YuriiCrimson/ExploitGSM |
+| n/a | GreatXML Bitlocker Bypass LPE | https://git.projectnightcrawler.dev/NightmareEclipse/GreatXML |
 | n/a | GreenPlasma Windows CTFMON Arbitrary Section Creation LPE | https://git.projectnightcrawler.dev/NightmareEclipse/GreenPlasma |
 | n/a | Microsoft ms-photos URI NTLM Leak (0-day) | https://github.com/rubenformation/ms-photos_NTLM_Leak |
 | n/a | MiniPlasma CVE-2020-17103 partially patched cldflt.sys LPE | https://git.projectnightcrawler.dev/NightmareEclipse/MiniPlasma |
