@@ -4810,6 +4810,12 @@ ipmo    // Import-Module
 PS C:\> Get-Help <COMMAND>
 ```
 
+#### Get .NET Version
+
+```cmd
+PS C:\> powershell -command "[System.Runtime.InteropServices.RuntimeEnvironment]::GetSystemVersion()"
+```
+
 #### Search for Files
 
 ```cmd
