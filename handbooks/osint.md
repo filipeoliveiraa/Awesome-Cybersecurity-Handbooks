@@ -5,6 +5,7 @@
 ## Table of Contents
 
 - [Fast Google Dorks Scan](#fast-google-dorks-scan)
+- [GitHub Dorks](#github-dorks)
 - [Google](#google)
 - [h8mail](#h8mail)
 - [Photon](#photon)
@@ -39,6 +40,31 @@
 ```console
 $ ./FGDS.sh <DOMAIN>
 $ proxychains bash ./FGDS.sh <DOMAIN>
+```
+
+## GitHub Dorks
+
+```console
+filename:.bash_history
+filename:.bashrc
+filename:.dockercfg
+filename:.env
+filename:.git-credentials
+filename:.htpasswd
+filename:.npmrc
+filename:.s3cfg
+filename:config.php
+filename:credentials
+filename:dhcpd.conf
+filename:id_rsa
+filename:id_dsa
+filename:id_ed25519
+filename:logins.json
+filename:proftpdpasswd
+filename:sftp-config.json
+filename:sshd_config
+extension:pem
+extension:sql
 ```
 
 ## Google
