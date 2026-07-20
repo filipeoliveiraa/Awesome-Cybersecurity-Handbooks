@@ -23,6 +23,7 @@
 | Name | Description | URL |
 | --- | --- | --- |
 | Aircrack-ng | WiFi security auditing tools suite | https://github.com/aircrack-ng/aircrack-ng |
+| Airgorah | A WiFi security auditing software mainly based on aircrack-ng tools suite | https://github.com/martin-olivier/airgorah |
 | airgeddon | This is a multi-use bash script for Linux systems to audit wireless networks. | https://github.com/v1s1t0r1sh3r3/airgeddon |
 | AngryOxide | 802.11 Attack Tool | https://github.com/Ragnt/AngryOxide |
 | EAPHammer | EAPHammer is a toolkit for performing targeted evil twin attacks against WPA2-Enterprise networks. | https://github.com/s0lst1c3/eaphammer |
